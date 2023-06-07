@@ -6,12 +6,13 @@ using TestProject3.code.test;
 namespace TestProject3.StepDefinitions
 {
     [Binding]
-    public class LoginToTodoIstStepDefinitions : TestBase
+    public class Test0_LoginToTodoIstStepDefinitions : TestBase
     {
         
         MainPage mainPage = new MainPage();
         LoginPage loginPage = new LoginPage();
         UserPage userPage = new UserPage();
+
         [Given(@"I have the valid credentials")]
         public void GivenIHaveTheValidCredentials()
         {
