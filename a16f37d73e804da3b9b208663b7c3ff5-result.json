@@ -1,0 +1,111 @@
+{
+  "uuid": "e3475a683aaf439eab45f87b7132d3e1",
+  "historyId": "Delete project",
+  "fullName": "Delete project",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az443-841"
+    },
+    {
+      "name": "feature",
+      "value": "Test 3 Delete Project"
+    }
+  ],
+  "links": [],
+  "name": "Delete project",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li/a[@href=\"/auth/login\"]\"}\n  (Session info: chrome=113.0.5672.63)",
+    "trace": "OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li/a[@href=\"/auth/login\"]\"}\n  (Session info: chrome=113.0.5672.63)\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\n   at TestProject3.code.control.Control.FindControl() in /home/runner/work/Module3SeleniumProject/Module3SeleniumProject/TestProject3/code/control/Control.cs:line 22\n   at TestProject3.code.control.Control.Click() in /home/runner/work/Module3SeleniumProject/Module3SeleniumProject/TestProject3/code/control/Control.cs:line 26\n   at Module3SeleniumProject.StepDefinitions.Test1_CreateProjectStepDefinitions.GivenIAmLoggedInTodoIst() in /home/runner/work/Module3SeleniumProject/Module3SeleniumProject/TestProject3/StepDefinitions/Test1_CreateProjectStepDefinitions.cs:line 20\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am logged in TodoIst",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686167785046,
+      "stop": 1686167815676
+    },
+    {
+      "name": "When  I click on the project to be Deleted",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686167815676,
+      "stop": 1686167815676
+    },
+    {
+      "name": "And  I click on the Delete button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686167815676,
+      "stop": 1686167815676
+    },
+    {
+      "name": "And  I confirm the deletion",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686167815676,
+      "stop": 1686167815676
+    },
+    {
+      "name": "Then  I should not see the Deleted project",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686167815676,
+      "stop": 1686167815676
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686167785046,
+  "stop": 1686167815677
+}

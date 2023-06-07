@@ -1,0 +1,111 @@
+{
+  "uuid": "1fea79fa42ab418cb8cb974593422363",
+  "historyId": "Update project name",
+  "fullName": "Update project name",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az443-841"
+    },
+    {
+      "name": "feature",
+      "value": "test 2 Update Project"
+    }
+  ],
+  "links": [],
+  "name": "Update project name",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li/a[@href=\"/auth/login\"]\"}\n  (Session info: chrome=113.0.5672.63)",
+    "trace": "OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li/a[@href=\"/auth/login\"]\"}\n  (Session info: chrome=113.0.5672.63)\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\n   at TestProject3.code.control.Control.FindControl() in /home/runner/work/Module3SeleniumProject/Module3SeleniumProject/TestProject3/code/control/Control.cs:line 22\n   at TestProject3.code.control.Control.Click() in /home/runner/work/Module3SeleniumProject/Module3SeleniumProject/TestProject3/code/control/Control.cs:line 26\n   at Module3SeleniumProject.StepDefinitions.Test1_CreateProjectStepDefinitions.GivenIAmLoggedInTodoIst() in /home/runner/work/Module3SeleniumProject/Module3SeleniumProject/TestProject3/StepDefinitions/Test1_CreateProjectStepDefinitions.cs:line 20\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am logged in TodoIst",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686167753710,
+      "stop": 1686167785040
+    },
+    {
+      "name": "When  I select the project to be updated",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686167785041,
+      "stop": 1686167785041
+    },
+    {
+      "name": "And  I update the project name",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686167785041,
+      "stop": 1686167785041
+    },
+    {
+      "name": "And  I click the Save button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686167785041,
+      "stop": 1686167785041
+    },
+    {
+      "name": "Then  I should see the updated project name",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686167785041,
+      "stop": 1686167785041
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686167753710,
+  "stop": 1686167785041
+}

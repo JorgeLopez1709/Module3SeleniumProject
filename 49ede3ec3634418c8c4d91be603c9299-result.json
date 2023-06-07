@@ -1,0 +1,111 @@
+{
+  "uuid": "dddd5155172e47acb1c9b16d9e196c50",
+  "historyId": "Create a new project",
+  "fullName": "Create a new project",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az443-841"
+    },
+    {
+      "name": "feature",
+      "value": "Test 1 Create Project"
+    }
+  ],
+  "links": [],
+  "name": "Create a new project",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "element click intercepted: Element <button aria-label=\"Add project\" type=\"button\" aria-disabled=\"false\" tabindex=\"0\" class=\"_8313bd46 f169a390 _8b7f1a82 _8644eccb _2a3b75a1\">...</button> is not clickable at point (245, 244). Other element would receive the click: <div class=\"GB_overlay\" style=\"z-index: 995; opacity: 0.8; width: 100%; height: 880px;\"></div>\n  (Session info: chrome=113.0.5672.63)",
+    "trace": "OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <button aria-label=\"Add project\" type=\"button\" aria-disabled=\"false\" tabindex=\"0\" class=\"_8313bd46 f169a390 _8b7f1a82 _8644eccb _2a3b75a1\">...</button> is not clickable at point (245, 244). Other element would receive the click: <div class=\"GB_overlay\" style=\"z-index: 995; opacity: 0.8; width: 100%; height: 880px;\"></div>\n  (Session info: chrome=113.0.5672.63)\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Click()\n   at TestProject3.code.control.Control.Click() in /home/runner/work/Module3SeleniumProject/Module3SeleniumProject/TestProject3/code/control/Control.cs:line 27\n   at Module3SeleniumProject.StepDefinitions.Test1_CreateProjectStepDefinitions.WhenIClickOnTheButton() in /home/runner/work/Module3SeleniumProject/Module3SeleniumProject/TestProject3/StepDefinitions/Test1_CreateProjectStepDefinitions.cs:line 27\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am logged in TodoIst",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686167738790,
+      "stop": 1686167742697
+    },
+    {
+      "name": "When  I click on the Add New Project button",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686167742697,
+      "stop": 1686167753701
+    },
+    {
+      "name": "And  I enter a valid project name",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686167753702,
+      "stop": 1686167753703
+    },
+    {
+      "name": "And  I click the Save button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686167753705,
+      "stop": 1686167753705
+    },
+    {
+      "name": "Then  I should see the new project name displayed",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686167753705,
+      "stop": 1686167753705
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686167738790,
+  "stop": 1686167753708
+}
