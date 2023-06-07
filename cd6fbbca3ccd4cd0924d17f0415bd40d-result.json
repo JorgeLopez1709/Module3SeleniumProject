@@ -1,0 +1,85 @@
+{
+  "uuid": "9a124801cc2e4ea3baf7d633cb2717bf",
+  "historyId": "Login to Todoist",
+  "fullName": "Login to Todoist",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az360-744"
+    },
+    {
+      "name": "feature",
+      "value": "Test 0 Login to TodoIst"
+    },
+    {
+      "name": "tag",
+      "value": "tag1"
+    }
+  ],
+  "links": [],
+  "name": "Login to Todoist",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+    "trace": "OpenQA.Selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.StartSession(ICapabilities desiredCapabilities)\n   at OpenQA.Selenium.WebDriver..ctor(ICommandExecutor executor, ICapabilities capabilities)\n   at OpenQA.Selenium.Chromium.ChromiumDriver..ctor(ChromiumDriverService service, ChromiumOptions options, TimeSpan commandTimeout)\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor()\n   at TestProject3.code.factoryBrowser.Chrome.Create() in /home/runner/work/Module3SeleniumProject/Module3SeleniumProject/TestProject3/code/factoryBrowser/Chrome.cs:line 15\n   at TestProject3.code.session.Session..ctor() in /home/runner/work/Module3SeleniumProject/Module3SeleniumProject/TestProject3/code/session/Session.cs:line 19\n   at TestProject3.code.session.Session.Instance() in /home/runner/work/Module3SeleniumProject/Module3SeleniumProject/TestProject3/code/session/Session.cs:line 25\n   at TestProject3.code.test.TestBase.OpenBrowser() in /home/runner/work/Module3SeleniumProject/Module3SeleniumProject/TestProject3/code/test/TestBase.cs:line 18\n   at TestProject3.StepDefinitions.Test0_LoginToTodoIstStepDefinitions.GivenIHaveTheValidCredentials() in /home/runner/work/Module3SeleniumProject/Module3SeleniumProject/TestProject3/StepDefinitions/Test0_LoginToTodoIstStepDefinitions.cs:line 19\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I have the valid credentials",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686170375445,
+      "stop": 1686170385819
+    },
+    {
+      "name": "When  I click on login button with the filled required fields",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686170385821,
+      "stop": 1686170385822
+    },
+    {
+      "name": "Then  the TodoIst Main page is displayed",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686170385825,
+      "stop": 1686170385825
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686170375436,
+  "stop": 1686170385831
+}

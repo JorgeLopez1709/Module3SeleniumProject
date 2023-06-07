@@ -1,0 +1,111 @@
+{
+  "uuid": "607f8d1bfd0e436c814acca3e70d0906",
+  "historyId": "Delete project",
+  "fullName": "Delete project",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az360-744"
+    },
+    {
+      "name": "feature",
+      "value": "Test 3 Delete Project"
+    }
+  ],
+  "links": [],
+  "name": "Delete project",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+    "trace": "OpenQA.Selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.StartSession(ICapabilities desiredCapabilities)\n   at OpenQA.Selenium.WebDriver..ctor(ICommandExecutor executor, ICapabilities capabilities)\n   at OpenQA.Selenium.Chromium.ChromiumDriver..ctor(ChromiumDriverService service, ChromiumOptions options, TimeSpan commandTimeout)\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor()\n   at TestProject3.code.factoryBrowser.Chrome.Create() in /home/runner/work/Module3SeleniumProject/Module3SeleniumProject/TestProject3/code/factoryBrowser/Chrome.cs:line 15\n   at TestProject3.code.session.Session..ctor() in /home/runner/work/Module3SeleniumProject/Module3SeleniumProject/TestProject3/code/session/Session.cs:line 19\n   at TestProject3.code.session.Session.Instance() in /home/runner/work/Module3SeleniumProject/Module3SeleniumProject/TestProject3/code/session/Session.cs:line 25\n   at TestProject3.code.test.TestBase.OpenBrowser() in /home/runner/work/Module3SeleniumProject/Module3SeleniumProject/TestProject3/code/test/TestBase.cs:line 18\n   at Module3SeleniumProject.StepDefinitions.Test1_CreateProjectStepDefinitions.GivenIAmLoggedInTodoIst() in /home/runner/work/Module3SeleniumProject/Module3SeleniumProject/TestProject3/StepDefinitions/Test1_CreateProjectStepDefinitions.cs:line 20\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am logged in TodoIst",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686170386180,
+      "stop": 1686170386298
+    },
+    {
+      "name": "When  I click on the project to be Deleted",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686170386299,
+      "stop": 1686170386299
+    },
+    {
+      "name": "And  I click on the Delete button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686170386299,
+      "stop": 1686170386299
+    },
+    {
+      "name": "And  I confirm the deletion",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686170386299,
+      "stop": 1686170386299
+    },
+    {
+      "name": "Then  I should not see the Deleted project",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686170386299,
+      "stop": 1686170386299
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686170386180,
+  "stop": 1686170386299
+}
