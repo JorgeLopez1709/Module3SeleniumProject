@@ -1,0 +1,109 @@
+{
+  "uuid": "ff0b1056a00644478dab28ed7b42edaa",
+  "historyId": "Create a new project",
+  "fullName": "Create a new project",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az564-444"
+    },
+    {
+      "name": "feature",
+      "value": "Test 1 Create Project"
+    }
+  ],
+  "links": [],
+  "name": "Create a new project",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am logged in TodoIst",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686171217654,
+      "stop": 1686171220882
+    },
+    {
+      "name": "When  I click on the Add New Project button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686171220882,
+      "stop": 1686171230942
+    },
+    {
+      "name": "And  I enter a valid project name",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686171230943,
+      "stop": 1686171231298
+    },
+    {
+      "name": "And  I click the Save button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686171231299,
+      "stop": 1686171231696
+    },
+    {
+      "name": "Then  I should see the new project name displayed",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686171231697,
+      "stop": 1686171241871
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686171217654,
+  "stop": 1686171241871
+}

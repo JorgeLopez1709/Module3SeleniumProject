@@ -1,0 +1,109 @@
+{
+  "uuid": "bcf1943dd7a94f4db4dde27656dde43c",
+  "historyId": "Delete project",
+  "fullName": "Delete project",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az564-444"
+    },
+    {
+      "name": "feature",
+      "value": "Test 3 Delete Project"
+    }
+  ],
+  "links": [],
+  "name": "Delete project",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am logged in TodoIst",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686171268157,
+      "stop": 1686171272630
+    },
+    {
+      "name": "When  I click on the project to be Deleted",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686171272630,
+      "stop": 1686171281807
+    },
+    {
+      "name": "And  I click on the Delete button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686171281807,
+      "stop": 1686171282246
+    },
+    {
+      "name": "And  I confirm the deletion",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686171282246,
+      "stop": 1686171284523
+    },
+    {
+      "name": "Then  I should not see the Deleted project",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686171284523,
+      "stop": 1686171315720
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686171268157,
+  "stop": 1686171315720
+}

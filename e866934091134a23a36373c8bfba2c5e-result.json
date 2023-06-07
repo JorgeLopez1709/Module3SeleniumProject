@@ -1,0 +1,83 @@
+{
+  "uuid": "b041bbcf7ebb4cbc9f6fc4ba1246d62d",
+  "historyId": "Login to Todoist",
+  "fullName": "Login to Todoist",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az564-444"
+    },
+    {
+      "name": "feature",
+      "value": "Test 0 Login to TodoIst"
+    },
+    {
+      "name": "tag",
+      "value": "tag1"
+    }
+  ],
+  "links": [],
+  "name": "Login to Todoist",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I have the valid credentials",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686171202687,
+      "stop": 1686171206740
+    },
+    {
+      "name": "When  I click on login button with the filled required fields",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686171206740,
+      "stop": 1686171207373
+    },
+    {
+      "name": "Then  the TodoIst Main page is displayed",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686171207373,
+      "stop": 1686171217616
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686171202656,
+  "stop": 1686171217618
+}
