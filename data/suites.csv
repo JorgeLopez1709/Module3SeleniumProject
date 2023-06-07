@@ -1,2 +1,5 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Wed Jun 07 18:52:30 GMT 2023","Wed Jun 07 18:52:43 GMT 2023","13013","","","","","","Login to Todoist",""
+"failed","Wed Jun 07 19:56:25 GMT 2023","Wed Jun 07 19:56:55 GMT 2023","30631","","","","","","Delete project",""
+"failed","Wed Jun 07 19:55:53 GMT 2023","Wed Jun 07 19:56:25 GMT 2023","31331","","","","","","Update project name",""
+"failed","Wed Jun 07 19:55:38 GMT 2023","Wed Jun 07 19:55:53 GMT 2023","14918","","","","","","Create a new project",""
+"passed","Wed Jun 07 19:55:21 GMT 2023","Wed Jun 07 19:55:38 GMT 2023","17021","","","","","","Login to Todoist",""
