@@ -1,0 +1,109 @@
+{
+  "uuid": "ca8059316e0f4b8584a57dd004c05460",
+  "historyId": "Update project name",
+  "fullName": "Update project name",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az169-787"
+    },
+    {
+      "name": "feature",
+      "value": "test 2 Update Project"
+    }
+  ],
+  "links": [],
+  "name": "Update project name",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am logged in TodoIst",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686170765165,
+      "stop": 1686170768943
+    },
+    {
+      "name": "When  I select the project to be updated",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686170768943,
+      "stop": 1686170781795
+    },
+    {
+      "name": "And  I update the project name",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686170781796,
+      "stop": 1686170782898
+    },
+    {
+      "name": "And  I click the Save button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686170782898,
+      "stop": 1686170783081
+    },
+    {
+      "name": "Then  I should see the updated project name",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686170783081,
+      "stop": 1686170793277
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686170765165,
+  "stop": 1686170793277
+}
