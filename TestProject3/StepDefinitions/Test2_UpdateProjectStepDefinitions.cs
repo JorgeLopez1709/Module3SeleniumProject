@@ -9,10 +9,13 @@ namespace Module3SeleniumProject.StepDefinitions
     public class Test2_UpdateProjectStepDefinitions : TestBase
     {
         LeftMenu leftMenu = new LeftMenu();
+        MainPage mainPage = new MainPage();
 
         [When(@"I select the project to be updated")]
         public void WhenISelectTheProjectToBeUpdated()
         {
+            try { mainPage.TimeZoneCloseButton.Click(); }
+            catch (Exception ex) { }
             leftMenu.ClickProjectName("Mojix909090");
         }
 

@@ -12,5 +12,6 @@ namespace TestProject3.code.page
 
     {
         public Button loginButton = new Button(By.XPath("//li/a[@href=\"/auth/login\"]"));
+        public Button TimeZoneCloseButton = new Button(By.XPath("//div[@id=\"GB_window\"]//span"));
     }
 }

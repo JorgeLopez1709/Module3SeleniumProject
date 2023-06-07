@@ -8,13 +8,15 @@ namespace Module3SeleniumProject.StepDefinitions
     [Binding]
     public class Test3_DeleteProjectStepDefinitions : TestBase
     {
-        
+        MainPage mainPage = new MainPage();
         LeftMenu leftMenu = new LeftMenu();
         ProjectSection projectSection = new ProjectSection();
 
         [When(@"I click on the project to be Deleted")]
         public void WhenIClickOnTheProjectToBeDeleted()
         {
+            try { mainPage.TimeZoneCloseButton.Click(); }
+            catch (Exception ex) { }
             leftMenu.ClickProjectName("MojixUpdateddddd");
         }
 

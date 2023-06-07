@@ -1,6 +1,7 @@
 using System;
 using TechTalk.SpecFlow;
 using TestProject3.code.page;
+using TestProject3.code.session;
 using TestProject3.code.test;
 
 namespace Module3SeleniumProject.StepDefinitions
@@ -22,8 +23,10 @@ namespace Module3SeleniumProject.StepDefinitions
         }
 
         [When(@"I click on the Add New Project button")]
-        public void WhenIClickOnTheButton()
+        public void WhenIClickOnTheAddNewProjectButton()
         {
+            try { mainPage.TimeZoneCloseButton.Click(); }
+            catch (Exception ex) { }
             leftMenu.addNewProjectButton.Click();
         }
 
@@ -35,7 +38,7 @@ namespace Module3SeleniumProject.StepDefinitions
         }
 
         [When(@"I click the Save button")]
-        public void WhenIClickTheButton()
+        public void WhenIClickTheSaveButton()
         {
             leftMenu.saveButton.Click();
         }

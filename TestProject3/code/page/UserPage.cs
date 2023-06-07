@@ -11,5 +11,6 @@ namespace TestProject3.code.page
     public class UserPage
     {
         public Button menuButton = new Button(By.XPath("//*[@id=\":r2:\"]/div/img"));
+        
     }
 }

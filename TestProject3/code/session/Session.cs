@@ -16,7 +16,7 @@ namespace TestProject3.code.session
 
         private Session()
         {
-            browser = FactoryBrowser.Make("grid").Create();
+            browser = FactoryBrowser.Make("chrome").Create();
         }
         public static Session Instance()
         {
